@@ -47,6 +47,8 @@
     font-size: 15px;
 }
 
+/* Hero Section Styling */
+
 
 .hero-container {
     background-color: #1F2937;
@@ -90,6 +92,8 @@
 img {
     width: 350px;
 }
+
+/* Random Info Section Styling */
 
 
 .random-info-container {
@@ -137,6 +141,8 @@ img {
     text-align: center;
 }
 
+/* Quote Section Styling */
+
 .quote-section {
     display: flex;
     justify-content: center;
@@ -164,3 +170,52 @@ img {
     font-weight: bolder;
     font-size: 20px;
 }
+
+
+/* Call To Action Section Styling */
+
+.action-section {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-items {
+    width: 1000px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: #3882F6 2px solid;
+    border-radius: 25px;
+    background-color: #3882F6;
+}
+
+.action-text {
+    color: #F9FAF8
+}
+
+.action-sign-up-button {
+    width: 100px;
+    height: 30px;
+    border: #F9FAF8 2px solid;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+/* Footer Section Styling */
+
+.footer-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: small;
+}
+
